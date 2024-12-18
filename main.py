@@ -18,6 +18,7 @@ if response.status_code == 200:
     titles = []
     companies = []
     links = []
+    pay = []
 
     for job in jobs:
         # Extract job title
